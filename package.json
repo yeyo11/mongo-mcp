@@ -1,0 +1,33 @@
+{
+  "name": "mongodb-mcp",
+  "version": "0.1.0",
+  "author": {
+    "name": "Alex Andru",
+    "email": "alex007d@gmail.com"
+  },
+  "description": "MCP server for interacting with MongoDB databases",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "mongodb-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "seed": "tsx src/seed.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "shx": "^0.3.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.3.3"
+  }
+}
