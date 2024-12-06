@@ -12,6 +12,14 @@ A Model Context Protocol (MCP) server that enables LLMs to interact directly wit
 - 📈 Index management
 - 📝 Document operations (insert, update, delete)
 
+## Demo Video
+
+
+https://github.com/user-attachments/assets/2389bf23-a10d-49f9-bca9-2b39a1ebe654
+
+
+
+
 ## 🚀 Quick Start
 
 To get started, find your mongodb connection url and add this configuration to your Claude Desktop config file:
