@@ -25,7 +25,7 @@ To get started, find your mongodb connection url and add this configuration to y
     "mongodb": {
       "command": "npx",
       "args": [
-        "dist/index.js",
+        "mongo-mcp",
         "mongodb://<username>:<password>@<host>:<port>/<database>?authSource=admin"
       ]
     }
@@ -63,7 +63,7 @@ Add this configuration to your Claude Desktop config file:
 **MacOS**: `~/Library/Application\ Support/Claude/claude_desktop_config.json`  
 **Windows**: `%APPDATA%/Claude/claude_desktop_config.json`
 
-#### Local Development Example:
+#### Local Development Mode:
 
 ```json
 {
